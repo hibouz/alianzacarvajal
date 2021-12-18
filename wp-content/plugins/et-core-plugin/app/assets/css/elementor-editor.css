@@ -1,0 +1,24 @@
+.elementor-panel .eight_theme-elementor-icon {
+    color: #fff;
+    background-color: #a4004f;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 21px;
+    margin-top: -4px;
+    display: inline-block;
+    margin-bottom: -5px;
+}
+
+#elementor-panel-page-settings .elementor-control-xstore_advanced_custom_css {
+    display: none;
+}
+
+/* make theme section with highest priority on top */
+#elementor-panel-categories {
+    display: flex;
+    flex-direction: column;
+}
+
+#elementor-panel-category-eight_theme_general {
+    order: -999;
+}

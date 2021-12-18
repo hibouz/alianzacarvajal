@@ -1,0 +1,105 @@
+/*
+ Theme Name:   XStore Child
+ Theme URI:    http://8theme.com/
+ Description:  XStore Child Theme
+ Author:       8theme
+ Author URI:   http://8theme.com
+ Template:     xstore
+ Version:      1.0
+ Text Domain:  xstore-child
+*/
+
+#header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+.page-heading {
+	padding-top: 12.5vw;
+}
+
+.filter-wrap {
+	margin-bottom: 25px !important;
+}
+
+.list-group {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.type-product ul {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.item-link:hover {
+	text-decoration: none;
+}
+
+.link-social {
+	font-size: 22px;
+	transition: all .5s;
+}
+
+.et_b_header-button:hover,
+.link-social:hover,
+.link-footer:hover {
+	text-decoration: none;
+}
+
+.link-footer:hover {
+	color: #e5c053 !important;
+}
+
+.logo-footer {
+	width: 150px;
+}
+
+.price {
+	color: #e5c053 !important;
+}
+
+.product-title a {
+	color: #333333;
+	text-decoration: none;
+	transition all .5s;
+}
+.product-title a:hover {
+	color: #e5c053;
+}
+
+.wpcf7-form-control.wpcf7-submit {
+	background-color: #e5c053 !important;
+	color: #333333 !important;
+}
+
+.wpcf7-submit {
+	box-shadow: 0 2px 5px rgba(51, 51, 51, 0.7) !important;
+	transition: all ease-in-out .5s;
+}
+
+.wpcf7-submit:hover {
+	box-shadow: none !important;
+}
+
+.et-mobile-panel .et_column {
+	background: #333333;
+}
+
+.et-mobile-panel .et_column > a .et_b-icon + span,
+.et-mobile-panel .et_column > a .et_b-icon {
+	color: #e5c053;
+}
+.header-main-menu.et_element-top-level .menu > li > a:hover,
+.header-main-menu.et_element-top-level .menu > .current-menu-item > a,
+.header-main-menu.et_element-top-level.menu-items-custom .menu > li > a:hover,
+.header-main-menu.et_element-top-level.menu-items-custom .menu > .current-menu-item > a {
+	color: #e5c053;
+}
+
+body {
+	background: #fff;
+}
